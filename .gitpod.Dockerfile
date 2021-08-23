@@ -40,4 +40,4 @@ RUN wasm-opt --version
 RUN cargo install cargo-generate --features vendored-openssl
 
 # optimize script
-COPY ./optimize.sh /usr/local/bin/optimize
+RUN wget https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/optimize.sh -O optimize && chmod +x optimize && mv optimize /usr/local/bin
