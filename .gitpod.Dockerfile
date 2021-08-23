@@ -1,6 +1,5 @@
 FROM gitpod/workspace-full
 
-RUN chmod +x optimize.sh
 RUN rustup default stable
 RUN rustup target add wasm32-unknown-unknown
 RUN rustup update && rustup component add clippy rustfmt
@@ -40,4 +39,4 @@ RUN wasm-opt --version
 RUN cargo install cargo-generate --features vendored-openssl
 
 # optimize script
-RUN wget https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/optimize.sh -O optimize && chmod +x optimize && mv optimize /usr/local/bin
+COPY ./optimize.sh /usr/local/bin/optimize
