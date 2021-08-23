@@ -18,7 +18,7 @@ ENV RUSTC_WRAPPER=sccache
 
 
 # Install binaryen
-RUN apt-get install binaryen
+RUN sudo apt-get install binaryen
 
 # Check wasm-opt version
 RUN wasm-opt --version
