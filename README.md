@@ -12,9 +12,10 @@ After your workspace is ready, follow next steps.
 :heavy_check_mark: Create your smartcontract project.
 
 ```bash
-cd package
+mkdir -p package/simple
+cd package/simple
 cargo generate --git https://github.com/CosmWasm/cosmwasm-template.git --name hello
-cd ..
+cd -
 ```
 
 > This create a basic counter smartcontract.
