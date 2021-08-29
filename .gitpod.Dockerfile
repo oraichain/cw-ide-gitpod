@@ -24,4 +24,5 @@ RUN sudo apt-get install binaryen
 RUN wasm-opt --version
 
 # optimize script
-COPY ./optimize.sh /usr/local/bin/optimize
+COPY ./optimize.sh /usr/local/bin/cosmwasm-optimize
+COPY ./simulate /usr/local/bin/cosmwasm-simulate
