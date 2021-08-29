@@ -14,7 +14,7 @@ After your workspace is ready, follow next steps.
 ```bash
 cd package
 cargo generate --git https://github.com/CosmWasm/cosmwasm-template.git --name hello
-cd hello
+cd ..
 ```
 
 > This create a basic counter smartcontract.
