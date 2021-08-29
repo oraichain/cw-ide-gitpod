@@ -1,6 +1,5 @@
 image:
   file: .gitpod.prebuilt.Dockerfile
-workspaceLocation: './'
 tasks:
   - name: package
     before: printf '[workspace]\n\nmembers = ["package/*/*"]' > /workspace/Cargo.toml
