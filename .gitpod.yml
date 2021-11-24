@@ -3,7 +3,7 @@ image:
 workspaceLocation: './'
 tasks:
   - name: package
-    before: printf '[workspace]\n\nmembers = ["package/*/*"]' > /workspace/Cargo.toml
+    before: printf '[workspace]\n\nmembers = ["package/*"]' > /workspace/Cargo.toml
     init: mkdir -p /workspace/package
 
 vscode:
