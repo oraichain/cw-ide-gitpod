@@ -28,9 +28,9 @@ echo -n 'your mnemonic here' >> .env
   <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/choose-a-file.png" alt="Choose a project file"></a>
 </p>
 
-<h3 align="center">
+<h4 align="center">
     An example of choosing a project file
-</h3>
+</h4>
 
 ### 3. Use VSCode CosmWasm extension to build, deploy, and interact with the smart contract.
 
@@ -38,17 +38,17 @@ echo -n 'your mnemonic here' >> .env
   <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/status-bar.png" alt="Status bar"></a>
 </p>
 
-<h3 align="center">
+<h4 align="center">
     The VSCode's status bar with 'Build CosmWasm' & 'Deploy CosmWasm' buttons
-</h3>
+</h4>
 
 <p align="center">
   <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/contract-interaction.png" alt="Status bar"></a>
 </p>
 
-<h3 align="center">
+<h4 align="center">
     Contract interaction with VsCode CosmWasm extension
-</h3>
+</h4>
 
 ## CosmWasm IDE VS Code Extension guideline
 
