@@ -25,7 +25,7 @@ echo -n 'your mnemonic here' >> .env
 ### 2. Choose an arbitrary file in the project.
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/docs/assets/choose-a-file.png" alt="Choose a project file"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/choose-a-file.png" alt="Choose a project file"></a>
 </p>
 
 <h4 align="center">
@@ -35,7 +35,7 @@ echo -n 'your mnemonic here' >> .env
 ### 3. Use VSCode CosmWasm extension to build, deploy, and interact with the smart contract.
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/docs/assets/status-bar.png" alt="Status bar"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/status-bar.png" alt="Status bar"></a>
 </p>
 
 <h4 align="center">
@@ -43,7 +43,7 @@ echo -n 'your mnemonic here' >> .env
 </h4>
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/docs/assets/contract-interaction.png" alt="Status bar"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/contract-interaction.png" alt="Status bar"></a>
 </p>
 
 <h4 align="center">
