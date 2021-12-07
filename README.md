@@ -8,20 +8,10 @@ Build smart contracts on the cloud powered by [gitpod](https://www.gitpod.io/).
 
 After your workspace is ready, follow next steps.
 
-:heavy_check_mark: Close all terminals, and start new one.  
 :heavy_check_mark: Create your smartcontract project.
 
 ```bash
-mkdir -p package/simple
-cd package/simple
-cargo generate --git https://github.com/CosmWasm/cosmwasm-template.git --name hello
+cd package/
+git clone https://github.com/oraichain/oraiwasm_scaffold.git
 cd -
-```
-
-> This create a basic counter smartcontract.
-
-:heavy_check_mark: Build your smartcontract
-
-```bash
-cosmwasm-optimize package/simple/hello
 ```
