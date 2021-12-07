@@ -1,10 +1,27 @@
-FROM cosmwasm/rust-optimizer:0.11.5 as rust-optimizer
-
 FROM gitpod/workspace-full
 
-RUN sudo apt-get update \
-    && sudo apt-get install -y jq pcregrep \
-    && sudo rm -rf /var/lib/apt/lists/*
+RUN rustup default stable
+RUN rustup target add wasm32-unknown-unknown
+RUN rustup update && rustup component add clippy rustfmt
+# Check cargo version
+RUN cargo --version
 
-RUN rustup update stable \
-    && rustup target add wasm32-unknown-unknown
+# cargo template plugin and sccache
+# RUN cargo install cargo-generate --features vendored-openssl
+RUN cargo install sccache
+
+# Check sccache version
+RUN sccache --version
+
+# Use sccache. Users can override this variable to disable caching.
+ENV RUSTC_WRAPPER=sccache
+
+# Install binaryen
+# RUN sudo apt-get install binaryen
+
+# Check wasm-opt version
+# RUN wasm-opt --version
+
+# optimize script
+COPY ./optimize.sh /usr/local/bin/cosmwasm-optimize
+COPY ./simulate /usr/local/bin/cosmwasm-simulate
