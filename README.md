@@ -25,30 +25,30 @@ echo -n 'your mnemonic here' >> .env
 ### 2. Choose an arbitrary file in the project.
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/choose-a-file.png" alt="Choose a project file"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/choose-a-file.png" alt="Choose a project file"></a>
 </p>
 
-<h4 align="center">
+<h3 align="center">
     An example of choosing a project file
-</h4>
+</h3>
 
 ### 3. Use VSCode CosmWasm extension to build, deploy, and interact with the smart contract.
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/status-bar.png" alt="Status bar"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/status-bar.png" alt="Status bar"></a>
 </p>
 
-<h4 align="center">
+<h3 align="center">
     The VSCode's status bar with 'Build CosmWasm' & 'Deploy CosmWasm' buttons
-</h4>
+</h3>
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/contract-interaction.png" alt="Status bar"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/contract-interaction.png" alt="Status bar"></a>
 </p>
 
-<h4 align="center">
+<h3 align="center">
     Contract interaction with VsCode CosmWasm extension
-</h4>
+</h3>
 
 ## CosmWasm IDE VS Code Extension guideline
 
