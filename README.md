@@ -2,7 +2,7 @@
 
 Build smart contracts on the cloud powered by [gitpod](https://www.gitpod.io/).
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oraichain/cosmwasm-gitpod/tree/update/old-gitpod)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oraichain/cosmwasm-gitpod)
 
 ## Steps
 
