@@ -7,7 +7,7 @@ RUN rustup update && rustup component add clippy rustfmt
 RUN cargo --version
 
 # cargo template plugin and sccache
-RUN cargo install cargo-generate --features vendored-openssl
+# RUN cargo install cargo-generate --features vendored-openssl
 RUN cargo install sccache
 
 # Check sccache version
@@ -15,9 +15,3 @@ RUN sccache --version
 
 # Use sccache. Users can override this variable to disable caching.
 ENV RUSTC_WRAPPER=sccache
-
-# Install binaryen
-RUN sudo apt-get install binaryen
-
-# Check wasm-opt version
-RUN wasm-opt --version
