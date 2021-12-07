@@ -43,7 +43,7 @@ echo -n 'your mnemonic here' >> .env
 </h4>
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/contract-interaction.png" alt="Status bar"></a>
+  <a target="_blank" rel="noopener noreferrer"><img width="600" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/interaction.png" alt="contract interaction"></a>
 </p>
 
 <h4 align="center">
