@@ -22,10 +22,38 @@ cd -
 echo -n 'your mnemonic here' >> .env
 ```
 
-### 2. Choose a arbitrary file in the project.
+### 2. Choose an arbitrary file in the project.
+
+<p align="center">
+  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/docs/assets/choose-a-file.png" alt="Choose a project file"></a>
+</p>
+
+<h4 align="center">
+    An example of choosing a project file
+</h4>
 
 ### 3. Use VSCode CosmWasm extension to build, deploy, and interact with the smart contract.
 
+<p align="center">
+  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/docs/assets/status-bar.png" alt="Status bar"></a>
+</p>
+
+<h4 align="center">
+    The VSCode's status bar with 'Build CosmWasm' & 'Deploy CosmWasm' buttons
+</h4>
+
+<p align="center">
+  <a target="_blank" rel="noopener noreferrer"><img width="100" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/docs/assets/contract-interaction.png" alt="Status bar"></a>
+</p>
+
+<h4 align="center">
+    Contract interaction with VsCode CosmWasm extension
+</h4>
+
 ## CosmWasm IDE VS Code Extension guideline
 
-Click [here](https://github.com/oraichain/vscode-cosmwasm/blob/master/README.md) for more information on how to use CosmWasm IDE VS Code Extension
+The extension provides two custom VS Code buttons: ```Build CosmWasm```,  ```Deploy Cosmwasm``` under the status bar of Vs Code and a ```CosmWasm IDE Explorer``` under the ```Explorer``` tab of VS Code. The ```Build CosmWasm``` button will build the smart contract to the .wasm file based on the file you open in VS Code. Meanwhile, the ```Deploy Cosmwasm``` button will deploy your contract onto a network that you choose on the CosmWasm IDE explorer.
+
+The CosmWasm IDE Explorer helps you modify the destination network that you want to interact with, and you can use it to interact with the smart contract you deploy with corresponding execute and query actions.
+
+Click [here](https://github.com/oraichain/vscode-cosmwasm/blob/master/README.md) for more information of the VsCode CosmWasm extension
