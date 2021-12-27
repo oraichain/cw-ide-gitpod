@@ -9,4 +9,3 @@ tasks:
 vscode:
   extensions:
     - matklad.rust-analyzer
-    - oraichain.cosmwasm
