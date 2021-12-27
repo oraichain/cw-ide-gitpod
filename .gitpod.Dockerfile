@@ -1,5 +1,9 @@
 FROM gitpod/workspace-full
 
+# fix vscode
+RUN  sed -i 's|l.src=`./fake.html?id=${ID}`|m=i.match(/base\s+href\s*=\s*"([^"]+)"/),l.src=m ? `${m[1]}?id=${ID}` : `./fake.html?id=${ID}`|' /ide/out/vs/workbench/contrib/webview/browser/pre/main.js
+
+
 RUN rustup default stable
 RUN rustup target add wasm32-unknown-unknown
 RUN rustup update && rustup component add clippy rustfmt
