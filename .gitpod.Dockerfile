@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full
 
 # fix vscode
-RUN  sed -i 's|,l.src=`./fake.html?id=${ID}`|;var m=a.match(/base href="([^"]+)"/);l.src=m ? `${m[1]}?id=${ID}` : `./fake.html?id=${ID}`|' /ide/out/vs/workbench/contrib/webview/browser/pre/main.js
+RUN  sed -i 's|c.style.visibility="visible",|c.style.visibility="visible";var bm=c.contentDocument.head.innerHTML.match(/base href="([^"]+)"/);if(bm)c.src=`${bm[1]}?id=${ID}`|' /ide/out/vs/workbench/contrib/webview/browser/pre/main.js
 
 
 RUN rustup default stable
