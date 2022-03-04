@@ -16,7 +16,7 @@ git clone https://github.com/oraichain/oraiwasm_scaffold.git
 cd -
 ```
 
-### 2. Create a .env file to store your development mnemonic wallet.
+### 2. Create a .env file to store your development mnemonic wallet (optional. Only necessary if you don't use the Keplr wallet).
 
 ```bash
 echo -n 'your mnemonic here' >> .env
