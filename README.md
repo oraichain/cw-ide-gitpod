@@ -13,9 +13,9 @@
 
 ### 1. Setting up the CosmWasm development environment
 
-To setup your workspace with all the neccessary tools & libraries for developing the CosmWasm smart contracts, please click button ```CosmWasm Gitpod Builder``` below. Gitpod will automatically install everything you need to deploy a smart contract.
+To setup your workspace with all the neccessary tools & libraries for developing the CosmWasm smart contracts, please click button ```Open in Gitpod``` below. Gitpod will automatically install everything you need to deploy a smart contract.
 
-[![CosmWasm Gitpod Builder](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oraichain/cosmwasm-gitpod)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oraichain/cosmwasm-gitpod)
 
 ### 2. Create a smart contract project (optional).
 
