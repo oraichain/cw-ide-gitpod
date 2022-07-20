@@ -19,7 +19,7 @@ To setup your workspace with all the neccessary tools & libraries for developing
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oraichain/cosmwasm-gitpod)
 
-***1.2 Self-hosted Gitpod***
+***Self-hosted Gitpod***
 
 Oraichain team has created a self-hosted Gitpod infrastructure alpha version with Kubenetes. This service is to replace the free version of Gitpod, which unfortunately removes your workspaces after a short period of time.
 
