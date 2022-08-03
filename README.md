@@ -13,13 +13,13 @@
 
 ### 1. Setting up the CosmWasm development environment
 
-***Free-version Gitpod***
+#### Free-version Gitpod
 
 To setup your workspace with all the neccessary tools & libraries for developing the CosmWasm smart contracts, please click button ```Open in Gitpod``` below. Gitpod will automatically install everything you need to deploy a smart contract.
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/oraichain/cosmwasm-gitpod)
 
-***Self-hosted Gitpod***
+#### Self-hosted Gitpod
 
 Oraichain team has created a self-hosted Gitpod infrastructure alpha version with Kubenetes. This service is to replace the free version of Gitpod, which unfortunately removes your workspaces after a short period of time.
 
