@@ -86,3 +86,8 @@ After deploying or instantiating, the webview will display the deployed contract
   <a target="_blank" rel="noopener noreferrer"><img width="300" src="https://raw.githubusercontent.com/oraichain/cosmwasm-gitpod/master/docs/assets/interaction.png" alt="contract interaction"></a>
 </p>
 
+## Documentation
+
+Please refer to the official CosmWasm IDE documentation which includes all repos related to it:
+
+- [Official CosmWasm IDE documentation](https://github.com/oraichain/cw-ide-docs)
